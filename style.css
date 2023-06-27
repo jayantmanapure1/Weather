@@ -42,14 +42,13 @@ body{
    background: #ebfffc;
    border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    
-   
+    border-left: none;
    width: 60px;
    height: 41px;
    cursor: pointer;
 }
-.search button img{
-   width: 20px;
+.search button ion-icon{
+   width: 30px;
 }
 .weather-icon{
    width: 170px;
