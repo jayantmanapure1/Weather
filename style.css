@@ -29,18 +29,23 @@ body{
    background: #ebfffc;
    color: #555;
    padding: 10px 25px;
-   border-radius: 30px;
+   
+   border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
    flex: 1;
-  margin-right: 16px;
+  
    font-size: 18px;
 }
 .search button{
    border: 0;
    outline: 0;
    background: #ebfffc;
-   border-radius: 50%;
+   border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    
+   
    width: 60px;
-   height: 60px;
+   height: 41px;
    cursor: pointer;
 }
 .search button img{
